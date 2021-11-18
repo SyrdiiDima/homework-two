@@ -1,0 +1,47 @@
+/* Основной цвет заголовков: #212121;*/
+/* Основной цвет абзацев : #rgb#757575a(117, 117, 117, 1);*/
+/* Цвет заднего фона #E5E5E5 */
+/* Цвет фона хедера #FFFFFF  */
+/* цвет main #E5E5E5 */
+/* цвет футера #2F303A */
+
+body {
+  background-color: #e5e5e5;
+  color: #212121;
+}
+header {
+  background-color: #ffffff;
+}
+
+.logo {
+  color: #212121;
+}
+span {
+  color: #2196f3;
+}
+.contact {
+  color: #212121;
+  text-decoration: none;
+}
+.button {
+  color: #212121;
+}
+.portfolio p {
+  color: #757575;
+}
+
+.portfolio h2 {
+  color: #212121;
+}
+.footer {
+  background-color: #2f303a;
+}
+.logo-finish {
+  color: #ffffff;
+}
+.city {
+  color: #ffffff;
+}
+.info {
+  color: rgba(255, 255, 255, 0.6);
+}

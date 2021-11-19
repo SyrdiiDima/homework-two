@@ -1,15 +1,122 @@
-/* Основной цвет заголовков: #212121;*/
-/* Основной цвет абзацев : #rgb#757575a(117, 117, 117, 1);*/
-/* Цвет заднего фона #E5E5E5 */
-/* Цвет фона хедера #FFFFFF  */
-/* цвет main #E5E5E5 */
-/* цвет футера #2F303A */
+/* цвет основного текста #212121; */
+/* цвет вторичного цвета  #757575; */
+/* акцент #2196F3 */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --activetext-button-color: #ffffff;
+}
 
 body {
-  background-color: #e5e5e5;
-  color: #212121;
+  background-color: #ffffff;
+  color: var(--primary-text-color);
 }
-header {
+
+.logo {
+  color: #000000;
+}
+span {
+  color: var(--accent-color);
+}
+
+ul {
+  list-style: none;
+}
+/* site nav */
+.site-nav a {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* auth-nav */
+
+.auth-nav a {
+  color: var(--primary-text-color);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* HeroTitles */
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+
+.hero-button {
+  color: #212121;
+  background-color: #f5f4fa;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+/* Sections */
+.section-title {
+  color: var(--title-text-color);
+}
+
+.section-list .title {
+  color: var(--title-text-color);
+}
+
+/* Our team */
+
+.our-team {
+  color: var(--title-text-color);
+}
+.our-team p {
+  color: var(--primary-text-color);
+}
+
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
+.logo-finish {
+  color: #ffffff;
+}
+
+.address {
+  color: #ffffff;
+}
+.link-finish {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .link-finish:hover,
+.footer .link-finish:focus {
+  color: var(--accent-color);
+}
+
+/* оформление  вкладки портфолио */
+
+/* Buttons Portfolio */
+.button-port {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+}
+.button-port:focus,
+.button-port:hover {
+  color: var(--activetext-button-color);
+  background-color: var(--accent-color);
+}
+
+/* Sections Portfokio */
+
+.portfolio .title-port {
+  color: var(--title-text-color);
+}
+.portfolio p {
+  color: var(--primary-text-color);
+}
+/* header { 
   background-color: #ffffff;
 }
 
@@ -45,3 +152,4 @@ span {
 .info {
   color: rgba(255, 255, 255, 0.6);
 }
+*/

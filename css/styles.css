@@ -80,11 +80,12 @@ a {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .hero-button {
-  color: #212121;
-  background-color: var(--bcg-active-button);
+  color: var(--white-color);
+  background-color: var(--accent-color);
   font-family: Roboto;
   font-size: 16px;
   font-weight: 700;
@@ -96,8 +97,7 @@ a {
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #2196f3;
-  color: var(--white-color);
+  color: #188ce8;
 }
 
 /* Sections */
@@ -120,6 +120,7 @@ a {
   font-style: normal;
   font-weight: 700;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .section-list p {
@@ -197,6 +198,7 @@ a {
   font-weight: 500;
   line-height: 1.62;
   cursor: pointer;
+  border: none;
 }
 .button-port:focus,
 .button-port:hover {

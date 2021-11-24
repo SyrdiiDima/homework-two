@@ -1,6 +1,6 @@
 /* цвет основного текста #212121; */
 /* цвет вторичного цвета  #757575; */
-/* акцент #2196F3 */
+/* синиий #2196F3 */
 :root {
   --primery-text-color: #212121;
   --secondly-text-color: #757575;
@@ -17,7 +17,6 @@ body {
 }
 
 .logo {
-  color: var(--primery-text-color);
   text-decoration: none;
   font-family: Raleway;
   font-style: normal;
@@ -39,6 +38,7 @@ ul {
 }
 
 a {
+  color: var(--primery-text-color);
   text-decoration: none;
   cursor: default;
 }
@@ -65,7 +65,7 @@ a {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.1;
   letter-spacing: 0.02em;
 }
 .auth-nav .link:hover,
@@ -137,9 +137,14 @@ a {
 
 /* Our team */
 
+.team {
+  background-color: #f5f4fa;
+}
+
 .our-team {
   color: var(--primery-text-color);
 }
+
 .our-team p {
   color: var(--secondly-text-color);
   font-family: Roboto;
@@ -172,8 +177,12 @@ a {
 .address {
   color: var(--white-color);
   font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
+
+  letter-spacing: 0.03em;
 }
 .link-finish {
   color: rgba(255, 255, 255, 0.6);
@@ -196,12 +205,12 @@ a {
 
 /* Buttons Portfolio */
 .button-port {
-  color: var(--title-text-color);
   background-color: var(--bcg-active-button);
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.62;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
   cursor: pointer;
   border: none;
 }
@@ -214,17 +223,20 @@ a {
 /* Sections Portfokio */
 
 .portfolio .title-port {
-  color: var(--primery-text-color);
   font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
   font-size: 18px;
-  font-weight: 700;
   line-height: 2;
+  letter-spacing: 0.06em;
 }
 .portfolio p {
   color: var(--secondly-text-color);
   font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
-  line-height: 1.88;
+  line-height: 1.87;
+
   letter-spacing: 0.03em;
-  text-align: left;
 }
